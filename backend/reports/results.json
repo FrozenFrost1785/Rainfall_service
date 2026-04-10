@@ -1,0 +1,38 @@
+[
+  {
+    "model_name": "XGBoost",
+    "mae": 1.3345668315887451,
+    "rmse": 2.533679723739624,
+    "r2_score": 0.9820959595335929,
+    "accuracy_class": 0.8433333333333334,
+    "f1_score": 0.881596101405269,
+    "evaluation_date": "today"
+  },
+  {
+    "model_name": "LightGBM",
+    "mae": 1.5414075654282835,
+    "rmse": 3.8096460554959273,
+    "r2_score": 0.9595221997058996,
+    "accuracy_class": 0.8066666666666666,
+    "f1_score": 0.8521737489831961,
+    "evaluation_date": "today"
+  },
+  {
+    "model_name": "LSTM-Attention",
+    "mae": 1.5188355047255755,
+    "rmse": 5.138131548059392,
+    "r2_score": 0.9263694431920438,
+    "accuracy_class": 0.9366666666666666,
+    "f1_score": 0.9371910391817317,
+    "evaluation_date": "today"
+  },
+  {
+    "model_name": "Ensemble (Ours)",
+    "mae": 1.469511367098039,
+    "rmse": 3.144568227122907,
+    "r2_score": 0.9724215603583776,
+    "accuracy_class": 0.6833333333333333,
+    "f1_score": 0.7335389398253935,
+    "evaluation_date": "today"
+  }
+]
